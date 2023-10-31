@@ -4,8 +4,10 @@ import "./card.css"
 function Card(props) {
   return (
     <div className="card">
+        {/* Card Image */}
         <img className="card-image" src={props.item.image} alt={props.alt} />
         <div>
+        {/* Card body */}
             <span>
                 <p className="card-location">{props.item.location}</p>
                 <a className="card-link"href={props.item.goggleMap}>View on Goggle Map</a>

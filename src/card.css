@@ -1,0 +1,91 @@
+.card{
+    display: flex;
+   /* height: 140px;*/
+    margin: 15px 0px 0px 0px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #918E9B;
+}
+
+.card-body{
+    display: flex;
+    height: 19px;*/
+   /*
+    flex-shrink: 0;*/
+    
+}
+
+.card-image{
+    margin-right: 15px;
+    width: 100px;
+    height: 139px;
+    border-radius: 5px;
+    background:  lightgray 50% / cover no-repeat;
+}
+
+
+.card-title{
+    margin: 0px;
+    font-family: 'Inter';
+    line-height: 30px;
+    color: #2B283A;
+    /*font-family: Inter;*/
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    /*line-height: normal;*/
+   /* width: 271px;
+    height: 4px;
+    flex-shrink: 0;*/
+    /*border: 2px solid black;*/
+}
+
+.card-description{
+    margin: 0px;
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 9.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 15.36px */
+   /* border: 2px solid black;*/
+}
+
+.card-date{
+    margin: 12px 0px 0px 0px;
+    flex-shrink: 0;
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-location{
+    margin: 0px;
+    display: inline;
+    flex-shrink: 0;
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.741px;
+}
+
+.card-link,a{
+    margin: 0px;
+    display: inline;
+    margin-left: 30px;
+    height: 1px;
+    flex-shrink: 0;
+    color: #918E9B;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
